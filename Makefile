@@ -8,13 +8,13 @@ BUILD_DIR := build
 SRC_DIR := src
 TARGET := $(BUILD_DIR)/main
 
-SRCS := $(wildcard $(SRC_DIR)/*.cpp)
+SRCS := $(shell find $(SRC_DIR) -name "*.cpp")
 OBJS := $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
 
 TEST_DIR := test
 TEST_TARGET := $(BUILD_DIR)/testProgram
 
-TEST_SRCS := $(wildcard $(TEST_DIR)/*.cpp)
+TEST_SRCS := $(shell find $(TEST_DIR) -name "*.cpp")
 TEST_OBJS := $(filter-out $(BUILD_DIR)/src/main.o, $(OBJS) $(TEST_SRCS:%.cpp=$(BUILD_DIR)/%.o))
 
 .PHONY: all build run clean test init
@@ -25,7 +25,7 @@ init:
 	@mkdir -p $(SRC_DIR) $(TEST_DIR) $(BUILD_DIR) include
 	@test -f $(SRC_DIR)/main.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Hello, World!" << std::endl;\n    return 0;\n}' > $(SRC_DIR)/main.cpp
 	@test -f include/utils.h || echo '// Example header\n#pragma once\n\nvoid hello();' > include/utils.h
-	@test -f $(TEST_DIR)/app.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Running tests..." << std::endl;\n    return 0;\n}' > $(TEST_DIR)/app.cpp
+	@test -f $(TEST_DIR)/app.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Running tests..." << std::endl;\n    return 0;\n}' > $(TEST_DIR)/main.cpp
 	@echo "Project structure initialized."
 
 build: $(TARGET)
