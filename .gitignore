@@ -1,6 +1,10 @@
+.vscode
 .DS_Store
 
 bin/
 build/
 dist/
 test/
+
+.vscode/
+database/

@@ -43,16 +43,20 @@ std::string BusFareFetcher::getApiResponse(const std::string &url)
 
 void BusFareFetcher::writeJsonToFile(const nlohmann::json &jsonData, const std::string &fileName)
 {
-	std::ofstream outFile(fileName);
+	std::string folder = "database";
+	std::filesystem::create_directories(folder);
+
+	std::string fullPath = folder + "/" + fileName;
+	std::ofstream outFile(fullPath);
 	if (outFile.is_open())
 	{
 		outFile << jsonData.dump(4);
 		outFile.close();
-		std::cout << "JSON written to file: " << fileName << std::endl;
+		std::cout << "JSON written to file: " << fullPath << std::endl;
 	}
 	else
 	{
-		std::cerr << "Failed to open file: " << fileName << std::endl;
+		std::cerr << "Failed to open file: " << fullPath << std::endl;
 	}
 }
 
