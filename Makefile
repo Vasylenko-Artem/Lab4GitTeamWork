@@ -25,7 +25,7 @@ init:
 	@mkdir -p $(SRC_DIR) $(TEST_DIR) $(BUILD_DIR) include
 	@test -f $(SRC_DIR)/main.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Hello, World!" << std::endl;\n    return 0;\n}' > $(SRC_DIR)/main.cpp
 	@test -f include/utils.h || echo '// Example header\n#pragma once\n\nvoid hello();' > include/utils.h
-	@test -f $(TEST_DIR)/app.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Running tests..." << std::endl;\n    return 0;\n}' > $(TEST_DIR)/test_main.cpp
+	@test -f $(TEST_DIR)/app.cpp || echo '#include <iostream>\n\nint main() {\n    std::cout << "Running tests..." << std::endl;\n    return 0;\n}' > $(TEST_DIR)/app.cpp
 	@echo "Project structure initialized."
 
 build: $(TARGET)
