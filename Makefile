@@ -1,7 +1,7 @@
 CPP := g++
 CPPFLAGS := -std=c++20 -g -Wall -Wextra -Wpedantic -Werror -Wshadow -Wunused-variable -Wuninitialized -Wconversion -Wdeprecated-declarations -Wformat -Wswitch -Wvla -Wunreachable-code -fsanitize=address
 INCLUDES := -Iinclude -Isrc
-# LDFLAGS := -llib
+LDFLAGS := -lcurl 
 
 BUILD_DIR := build
 

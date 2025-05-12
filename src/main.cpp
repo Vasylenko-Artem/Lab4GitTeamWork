@@ -1,10 +1,19 @@
 #include <iostream>
-#include "utils.h"
+#include "app/app.h"
+
+void clearConsole()
+{
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
 
 int main()
 {
-    // std::cout << "Hello, World!" << std::endl;
-    hello();
-    // test
+    clearConsole();
+    App app;
+    app.run();
     return 0;
 }
