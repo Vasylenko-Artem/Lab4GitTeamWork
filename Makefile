@@ -8,13 +8,13 @@ BUILD_DIR := build
 SRC_DIR := src
 TARGET := $(BUILD_DIR)/main
 
-SRCS := $(wildcard $(SRC_DIR)/*.cpp)
+SRCS := $(shell find $(SRC_DIR) -name "*.cpp")
 OBJS := $(SRCS:%.cpp=$(BUILD_DIR)/%.o)
 
 TEST_DIR := test
 TEST_TARGET := $(BUILD_DIR)/testProgram
 
-TEST_SRCS := $(wildcard $(TEST_DIR)/*.cpp)
+TEST_SRCS := $(shell find $(TEST_DIR) -name "*.cpp")
 TEST_OBJS := $(filter-out $(BUILD_DIR)/src/main.o, $(OBJS) $(TEST_SRCS:%.cpp=$(BUILD_DIR)/%.o))
 
 .PHONY: all build run clean test init
