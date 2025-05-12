@@ -17,7 +17,6 @@ TEST_TARGET := $(BUILD_DIR)/testProgram
 TEST_SRCS := $(wildcard $(TEST_DIR)/*.cpp)
 TEST_OBJS := $(filter-out $(BUILD_DIR)/src/main.o, $(OBJS) $(TEST_SRCS:%.cpp=$(BUILD_DIR)/%.o))
 
-#test
 .PHONY: all build run clean test init
 
 all: build run
