@@ -80,18 +80,61 @@ void BusFareFetcher::parseAndPrintFares(const nlohmann::json &jsonData)
 	}
 }
 
-void BusFareFetcher::fetchAndProcess(const std::string &url, const std::string &outputFile)
+void BusFareFetcher::fetchAndProcess(const std::string &faresUrl, const std::string &outputFile)
 {
-	std::string jsonResponse = getApiResponse(url);
+	std::string faresJsonResponse = getApiResponse(faresUrl);
+	nlohmann::json faresJson;
 
 	try
 	{
-		nlohmann::json parsedJson = nlohmann::json::parse(jsonResponse);
-		writeJsonToFile(parsedJson, outputFile);
-		parseAndPrintFares(parsedJson);
+		faresJson = nlohmann::json::parse(faresJsonResponse);
 	}
 	catch (const nlohmann::json::exception &e)
 	{
-		std::cerr << "JSON parsing error: " << e.what() << std::endl;
+		std::cerr << "Fares JSON parsing error: " << e.what() << std::endl;
+		return;
 	}
+
+	std::string stopsUrl = "https://bus-api.blablacar.com/v1/stops";
+	std::string stopsJsonResponse = getApiResponse(stopsUrl);
+	nlohmann::json stopsJson;
+
+	try
+	{
+		stopsJson = nlohmann::json::parse(stopsJsonResponse);
+	}
+	catch (const nlohmann::json::exception &e)
+	{
+		std::cerr << "Stops JSON parsing error: " << e.what() << std::endl;
+		return;
+	}
+
+	std::unordered_map<int, nlohmann::json> stopMap;
+	if (stopsJson.contains("stops"))
+	{
+		for (const auto &stop : stopsJson["stops"])
+		{
+			int id = stop["id"];
+			stopMap[id] = stop;
+		}
+	}
+
+	if (faresJson.contains("fares"))
+	{
+		for (auto &fare : faresJson["fares"])
+		{
+			int originId = fare.value("origin_id", -1);
+			if (stopMap.contains(originId))
+			{
+				const auto &stopInfo = stopMap[originId];
+				fare["short_name"] = stopInfo.value("short_name", "");
+				fare["long_name"] = stopInfo.value("long_name", "");
+				fare["time_zone"] = stopInfo.value("time_zone", "");
+				fare["latitude"] = stopInfo.value("latitude", 0.0);
+				fare["longitude"] = stopInfo.value("longitude", 0.0);
+			}
+		}
+	}
+
+	writeJsonToFile(faresJson, outputFile);
 }
