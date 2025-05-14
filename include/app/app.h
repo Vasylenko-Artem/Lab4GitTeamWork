@@ -4,7 +4,5 @@ class App
 {
 private:
 public:
-	App();
-	~App();
-	void run();
+	static void run();
 };

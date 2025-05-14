@@ -1,0 +1,1549 @@
+[
+    {
+        "departure_place": "Kyiv",
+        "destination_place": "Kyiv",
+        "driver_name": "Artemka",
+        "id": "1",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kharkiv",
+        "destination_place": "Kharkiv",
+        "driver_name": "Artemka",
+        "id": "2",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Odesa",
+        "destination_place": "Odesa",
+        "driver_name": "Artemka",
+        "id": "3",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Dnipro",
+        "destination_place": "Dnipro",
+        "driver_name": "Artemka",
+        "id": "4",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Donetsk",
+        "destination_place": "Donetsk",
+        "driver_name": "Artemka",
+        "id": "5",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lviv",
+        "destination_place": "Lviv",
+        "driver_name": "Artemka",
+        "id": "6",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zaporizhzhia",
+        "destination_place": "Zaporizhzhia",
+        "driver_name": "Artemka",
+        "id": "7",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bazal’tove",
+        "destination_place": "Bazal’tove",
+        "driver_name": "Artemka",
+        "id": "8",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kryvyi Rih",
+        "destination_place": "Kryvyi Rih",
+        "driver_name": "Artemka",
+        "id": "9",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sevastopol",
+        "destination_place": "Sevastopol",
+        "driver_name": "Artemka",
+        "id": "10",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mykolaiv",
+        "destination_place": "Mykolaiv",
+        "driver_name": "Artemka",
+        "id": "11",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mariupol",
+        "destination_place": "Mariupol",
+        "driver_name": "Artemka",
+        "id": "12",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Luhansk",
+        "destination_place": "Luhansk",
+        "driver_name": "Artemka",
+        "id": "13",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vinnytsia",
+        "destination_place": "Vinnytsia",
+        "driver_name": "Artemka",
+        "id": "14",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Makiivka",
+        "destination_place": "Makiivka",
+        "driver_name": "Artemka",
+        "id": "15",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Simferopol",
+        "destination_place": "Simferopol",
+        "driver_name": "Artemka",
+        "id": "16",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chernihiv",
+        "destination_place": "Chernihiv",
+        "driver_name": "Artemka",
+        "id": "17",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Poltava",
+        "destination_place": "Poltava",
+        "driver_name": "Artemka",
+        "id": "18",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kherson",
+        "destination_place": "Kherson",
+        "driver_name": "Artemka",
+        "id": "19",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Khmelnytskyi",
+        "destination_place": "Khmelnytskyi",
+        "driver_name": "Artemka",
+        "id": "20",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Cherkasy",
+        "destination_place": "Cherkasy",
+        "driver_name": "Artemka",
+        "id": "21",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sumy",
+        "destination_place": "Sumy",
+        "driver_name": "Artemka",
+        "id": "22",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chernivtsi",
+        "destination_place": "Chernivtsi",
+        "driver_name": "Artemka",
+        "id": "23",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zhytomyr",
+        "destination_place": "Zhytomyr",
+        "driver_name": "Artemka",
+        "id": "24",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Horlivka",
+        "destination_place": "Horlivka",
+        "driver_name": "Artemka",
+        "id": "25",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Rivne",
+        "destination_place": "Rivne",
+        "driver_name": "Artemka",
+        "id": "26",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Ivano-Frankivsk",
+        "destination_place": "Ivano-Frankivsk",
+        "driver_name": "Artemka",
+        "id": "27",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kropyvnytskyi",
+        "destination_place": "Kropyvnytskyi",
+        "driver_name": "Artemka",
+        "id": "28",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kamianske",
+        "destination_place": "Kamianske",
+        "driver_name": "Artemka",
+        "id": "29",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Ternopil",
+        "destination_place": "Ternopil",
+        "driver_name": "Artemka",
+        "id": "30",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kremenchuk",
+        "destination_place": "Kremenchuk",
+        "driver_name": "Artemka",
+        "id": "31",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lutsk",
+        "destination_place": "Lutsk",
+        "driver_name": "Artemka",
+        "id": "32",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bila Tserkva",
+        "destination_place": "Bila Tserkva",
+        "driver_name": "Artemka",
+        "id": "33",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sievierodonetsk",
+        "destination_place": "Sievierodonetsk",
+        "driver_name": "Artemka",
+        "id": "34",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kerch",
+        "destination_place": "Kerch",
+        "driver_name": "Artemka",
+        "id": "35",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Melitopol",
+        "destination_place": "Melitopol",
+        "driver_name": "Artemka",
+        "id": "36",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kramatorsk",
+        "destination_place": "Kramatorsk",
+        "driver_name": "Artemka",
+        "id": "37",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Khrustalnyi",
+        "destination_place": "Khrustalnyi",
+        "driver_name": "Artemka",
+        "id": "38",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Uzhhorod",
+        "destination_place": "Uzhhorod",
+        "driver_name": "Artemka",
+        "id": "39",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sloviansk",
+        "destination_place": "Sloviansk",
+        "driver_name": "Artemka",
+        "id": "40",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Brovary",
+        "destination_place": "Brovary",
+        "driver_name": "Artemka",
+        "id": "41",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yevpatoriia",
+        "destination_place": "Yevpatoriia",
+        "driver_name": "Artemka",
+        "id": "42",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Berdiansk",
+        "destination_place": "Berdiansk",
+        "driver_name": "Artemka",
+        "id": "43",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Alchevsk",
+        "destination_place": "Alchevsk",
+        "driver_name": "Artemka",
+        "id": "44",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Nikopol",
+        "destination_place": "Nikopol",
+        "driver_name": "Artemka",
+        "id": "45",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pavlohrad",
+        "destination_place": "Pavlohrad",
+        "driver_name": "Artemka",
+        "id": "46",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kamianets-Podilskyi",
+        "destination_place": "Kamianets-Podilskyi",
+        "driver_name": "Artemka",
+        "id": "47",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lysychansk",
+        "destination_place": "Lysychansk",
+        "driver_name": "Artemka",
+        "id": "48",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Dovzhansk",
+        "destination_place": "Dovzhansk",
+        "driver_name": "Artemka",
+        "id": "49",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mukacheve",
+        "destination_place": "Mukacheve",
+        "driver_name": "Artemka",
+        "id": "50",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Konotop",
+        "destination_place": "Konotop",
+        "driver_name": "Artemka",
+        "id": "51",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Uman",
+        "destination_place": "Uman",
+        "driver_name": "Artemka",
+        "id": "52",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yenakiieve",
+        "destination_place": "Yenakiieve",
+        "driver_name": "Artemka",
+        "id": "53",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yalta",
+        "destination_place": "Yalta",
+        "driver_name": "Artemka",
+        "id": "54",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shostka",
+        "destination_place": "Shostka",
+        "driver_name": "Artemka",
+        "id": "55",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Stakhanov",
+        "destination_place": "Stakhanov",
+        "driver_name": "Artemka",
+        "id": "56",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Drohobych",
+        "destination_place": "Drohobych",
+        "driver_name": "Artemka",
+        "id": "57",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kostiantynivka",
+        "destination_place": "Kostiantynivka",
+        "driver_name": "Artemka",
+        "id": "58",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bakhmut",
+        "destination_place": "Bakhmut",
+        "driver_name": "Artemka",
+        "id": "59",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Fedosiia",
+        "destination_place": "Fedosiia",
+        "driver_name": "Artemka",
+        "id": "60",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kovel",
+        "destination_place": "Kovel",
+        "driver_name": "Artemka",
+        "id": "61",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Nizhyn",
+        "destination_place": "Nizhyn",
+        "driver_name": "Artemka",
+        "id": "62",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Smila",
+        "destination_place": "Smila",
+        "driver_name": "Artemka",
+        "id": "63",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chervonohrad",
+        "destination_place": "Chervonohrad",
+        "driver_name": "Artemka",
+        "id": "64",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pokrovsk",
+        "destination_place": "Pokrovsk",
+        "driver_name": "Artemka",
+        "id": "65",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pervomaisk",
+        "destination_place": "Pervomaisk",
+        "driver_name": "Artemka",
+        "id": "66",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Korosten",
+        "destination_place": "Korosten",
+        "driver_name": "Artemka",
+        "id": "67",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kolomyia",
+        "destination_place": "Kolomyia",
+        "driver_name": "Artemka",
+        "id": "68",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Rubizhne",
+        "destination_place": "Rubizhne",
+        "driver_name": "Artemka",
+        "id": "69",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Khartsyzk",
+        "destination_place": "Khartsyzk",
+        "driver_name": "Artemka",
+        "id": "70",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Druzhkivka",
+        "destination_place": "Druzhkivka",
+        "driver_name": "Artemka",
+        "id": "71",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chornomorsk",
+        "destination_place": "Chornomorsk",
+        "driver_name": "Artemka",
+        "id": "72",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bilhorod-Dnistrovskyi",
+        "destination_place": "Bilhorod-Dnistrovskyi",
+        "driver_name": "Artemka",
+        "id": "73",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Irpin",
+        "destination_place": "Irpin",
+        "driver_name": "Artemka",
+        "id": "74",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chystiakove",
+        "destination_place": "Chystiakove",
+        "driver_name": "Artemka",
+        "id": "75",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Stryi",
+        "destination_place": "Stryi",
+        "driver_name": "Artemka",
+        "id": "76",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novohrad-Volynskyi",
+        "destination_place": "Novohrad-Volynskyi",
+        "driver_name": "Artemka",
+        "id": "77",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lozova",
+        "destination_place": "Lozova",
+        "driver_name": "Artemka",
+        "id": "78",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Antratsyt",
+        "destination_place": "Antratsyt",
+        "driver_name": "Artemka",
+        "id": "79",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Horishni Plavni",
+        "destination_place": "Horishni Plavni",
+        "driver_name": "Artemka",
+        "id": "80",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Myrnohrad",
+        "destination_place": "Myrnohrad",
+        "driver_name": "Artemka",
+        "id": "81",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shakhtarsk",
+        "destination_place": "Shakhtarsk",
+        "driver_name": "Artemka",
+        "id": "82",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Okhtyrka",
+        "destination_place": "Okhtyrka",
+        "driver_name": "Artemka",
+        "id": "83",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Snizhne",
+        "destination_place": "Snizhne",
+        "driver_name": "Artemka",
+        "id": "84",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Rovenky",
+        "destination_place": "Rovenky",
+        "driver_name": "Artemka",
+        "id": "85",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Fastiv",
+        "destination_place": "Fastiv",
+        "driver_name": "Artemka",
+        "id": "86",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lubny",
+        "destination_place": "Lubny",
+        "driver_name": "Artemka",
+        "id": "87",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Brianka",
+        "destination_place": "Brianka",
+        "driver_name": "Artemka",
+        "id": "88",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Krasnodon",
+        "destination_place": "Krasnodon",
+        "driver_name": "Artemka",
+        "id": "89",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Romny",
+        "destination_place": "Romny",
+        "driver_name": "Artemka",
+        "id": "90",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Myrhorod",
+        "destination_place": "Myrhorod",
+        "driver_name": "Artemka",
+        "id": "91",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Podilsk",
+        "destination_place": "Podilsk",
+        "driver_name": "Artemka",
+        "id": "92",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vyshneve",
+        "destination_place": "Vyshneve",
+        "driver_name": "Artemka",
+        "id": "93",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vasylkiv",
+        "destination_place": "Vasylkiv",
+        "driver_name": "Artemka",
+        "id": "94",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Dubno",
+        "destination_place": "Dubno",
+        "driver_name": "Artemka",
+        "id": "95",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Boryslav",
+        "destination_place": "Boryslav",
+        "driver_name": "Artemka",
+        "id": "96",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bucha",
+        "destination_place": "Bucha",
+        "driver_name": "Artemka",
+        "id": "97",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Holubivske",
+        "destination_place": "Holubivske",
+        "driver_name": "Artemka",
+        "id": "98",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Boyarka",
+        "destination_place": "Boyarka",
+        "driver_name": "Artemka",
+        "id": "99",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yasynuvata",
+        "destination_place": "Yasynuvata",
+        "driver_name": "Artemka",
+        "id": "100",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Slavuta",
+        "destination_place": "Slavuta",
+        "driver_name": "Artemka",
+        "id": "101",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sambir",
+        "destination_place": "Sambir",
+        "driver_name": "Artemka",
+        "id": "102",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Toretsk",
+        "destination_place": "Toretsk",
+        "driver_name": "Artemka",
+        "id": "103",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zhmerynka",
+        "destination_place": "Zhmerynka",
+        "driver_name": "Artemka",
+        "id": "104",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chuhuiv",
+        "destination_place": "Chuhuiv",
+        "driver_name": "Artemka",
+        "id": "105",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novoyavorovskoye",
+        "destination_place": "Novoyavorovskoye",
+        "driver_name": "Artemka",
+        "id": "106",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mohyliv-Podilskyi",
+        "destination_place": "Mohyliv-Podilskyi",
+        "driver_name": "Artemka",
+        "id": "107",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Truskavets",
+        "destination_place": "Truskavets",
+        "driver_name": "Artemka",
+        "id": "108",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Dobropillia",
+        "destination_place": "Dobropillia",
+        "driver_name": "Artemka",
+        "id": "109",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kupiansk",
+        "destination_place": "Kupiansk",
+        "driver_name": "Artemka",
+        "id": "110",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pereyaslav-Khmel’nyts’kyy",
+        "destination_place": "Pereyaslav-Khmel’nyts’kyy",
+        "driver_name": "Artemka",
+        "id": "111",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Khmilnyk",
+        "destination_place": "Khmilnyk",
+        "driver_name": "Artemka",
+        "id": "112",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kirovsk",
+        "destination_place": "Kirovsk",
+        "driver_name": "Artemka",
+        "id": "113",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sofiyivs’ka Borshchahivka",
+        "destination_place": "Sofiyivs’ka Borshchahivka",
+        "driver_name": "Artemka",
+        "id": "114",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Perevalsk",
+        "destination_place": "Perevalsk",
+        "driver_name": "Artemka",
+        "id": "115",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vynohradiv",
+        "destination_place": "Vynohradiv",
+        "driver_name": "Artemka",
+        "id": "116",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Armiansk",
+        "destination_place": "Armiansk",
+        "driver_name": "Artemka",
+        "id": "117",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Saky",
+        "destination_place": "Saky",
+        "driver_name": "Artemka",
+        "id": "118",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Debaltseve",
+        "destination_place": "Debaltseve",
+        "driver_name": "Artemka",
+        "id": "119",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Selydove",
+        "destination_place": "Selydove",
+        "driver_name": "Artemka",
+        "id": "120",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Molodohvardiisk",
+        "destination_place": "Molodohvardiisk",
+        "driver_name": "Artemka",
+        "id": "121",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Merefa",
+        "destination_place": "Merefa",
+        "driver_name": "Artemka",
+        "id": "122",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bilohorodka",
+        "destination_place": "Bilohorodka",
+        "driver_name": "Artemka",
+        "id": "123",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sukhodilsk",
+        "destination_place": "Sukhodilsk",
+        "driver_name": "Artemka",
+        "id": "124",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pelahiivka",
+        "destination_place": "Pelahiivka",
+        "driver_name": "Artemka",
+        "id": "125",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Hostomel",
+        "destination_place": "Hostomel",
+        "driver_name": "Artemka",
+        "id": "126",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Taromske",
+        "destination_place": "Taromske",
+        "driver_name": "Artemka",
+        "id": "127",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vynnyky",
+        "destination_place": "Vynnyky",
+        "driver_name": "Artemka",
+        "id": "128",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chervonopartyzansk",
+        "destination_place": "Chervonopartyzansk",
+        "driver_name": "Artemka",
+        "id": "129",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mykolaivka",
+        "destination_place": "Mykolaivka",
+        "driver_name": "Artemka",
+        "id": "130",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Nyzhnia Krynka",
+        "destination_place": "Nyzhnia Krynka",
+        "driver_name": "Artemka",
+        "id": "131",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Antonivka",
+        "destination_place": "Antonivka",
+        "driver_name": "Artemka",
+        "id": "132",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Petrovske",
+        "destination_place": "Petrovske",
+        "driver_name": "Artemka",
+        "id": "133",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Prymorskyi",
+        "destination_place": "Prymorskyi",
+        "driver_name": "Artemka",
+        "id": "134",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chasiv Yar",
+        "destination_place": "Chasiv Yar",
+        "driver_name": "Artemka",
+        "id": "135",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zhdanivka",
+        "destination_place": "Zhdanivka",
+        "driver_name": "Artemka",
+        "id": "136",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vakhrusheve",
+        "destination_place": "Vakhrusheve",
+        "driver_name": "Artemka",
+        "id": "137",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Hirnyk",
+        "destination_place": "Hirnyk",
+        "driver_name": "Artemka",
+        "id": "138",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Lymanka",
+        "destination_place": "Lymanka",
+        "driver_name": "Artemka",
+        "id": "139",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Soledar",
+        "destination_place": "Soledar",
+        "driver_name": "Artemka",
+        "id": "140",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sartana",
+        "destination_place": "Sartana",
+        "driver_name": "Artemka",
+        "id": "141",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Haspra",
+        "destination_place": "Haspra",
+        "driver_name": "Artemka",
+        "id": "142",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Inkerman",
+        "destination_place": "Inkerman",
+        "driver_name": "Artemka",
+        "id": "143",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Korolevo",
+        "destination_place": "Korolevo",
+        "driver_name": "Artemka",
+        "id": "144",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sniatyn",
+        "destination_place": "Sniatyn",
+        "driver_name": "Artemka",
+        "id": "145",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novgorodskoye",
+        "destination_place": "Novgorodskoye",
+        "driver_name": "Artemka",
+        "id": "146",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sieverne",
+        "destination_place": "Sieverne",
+        "driver_name": "Artemka",
+        "id": "147",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sofiivka",
+        "destination_place": "Sofiivka",
+        "driver_name": "Artemka",
+        "id": "148",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Teplohirsk",
+        "destination_place": "Teplohirsk",
+        "driver_name": "Artemka",
+        "id": "149",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bilenke",
+        "destination_place": "Bilenke",
+        "driver_name": "Artemka",
+        "id": "150",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Hurzuf",
+        "destination_place": "Hurzuf",
+        "driver_name": "Artemka",
+        "id": "151",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Horodenka",
+        "destination_place": "Horodenka",
+        "driver_name": "Artemka",
+        "id": "152",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pivnichne",
+        "destination_place": "Pivnichne",
+        "driver_name": "Artemka",
+        "id": "153",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yasenivskyi",
+        "destination_place": "Yasenivskyi",
+        "driver_name": "Artemka",
+        "id": "154",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Liubymivka",
+        "destination_place": "Liubymivka",
+        "driver_name": "Artemka",
+        "id": "155",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Masandra",
+        "destination_place": "Masandra",
+        "driver_name": "Artemka",
+        "id": "156",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bilky",
+        "destination_place": "Bilky",
+        "driver_name": "Artemka",
+        "id": "157",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yasnohirka",
+        "destination_place": "Yasnohirka",
+        "driver_name": "Artemka",
+        "id": "158",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bilytske",
+        "destination_place": "Bilytske",
+        "driver_name": "Artemka",
+        "id": "159",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pochaiv",
+        "destination_place": "Pochaiv",
+        "driver_name": "Artemka",
+        "id": "160",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Oleksandrivka",
+        "destination_place": "Oleksandrivka",
+        "driver_name": "Artemka",
+        "id": "161",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vuhlehirsk",
+        "destination_place": "Vuhlehirsk",
+        "driver_name": "Artemka",
+        "id": "162",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zorynsk",
+        "destination_place": "Zorynsk",
+        "driver_name": "Artemka",
+        "id": "163",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Komyshany",
+        "destination_place": "Komyshany",
+        "driver_name": "Artemka",
+        "id": "164",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Oleksiievo-Druzhkivka",
+        "destination_place": "Oleksiievo-Druzhkivka",
+        "driver_name": "Artemka",
+        "id": "165",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Piskivka",
+        "destination_place": "Piskivka",
+        "driver_name": "Artemka",
+        "id": "166",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Holmivskyi",
+        "destination_place": "Holmivskyi",
+        "driver_name": "Artemka",
+        "id": "167",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novodruzhesk",
+        "destination_place": "Novodruzhesk",
+        "driver_name": "Artemka",
+        "id": "168",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Karnaukhivka",
+        "destination_place": "Karnaukhivka",
+        "driver_name": "Artemka",
+        "id": "169",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Velikaya Berëzovitsa",
+        "destination_place": "Velikaya Berëzovitsa",
+        "driver_name": "Artemka",
+        "id": "170",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Rozkishne",
+        "destination_place": "Rozkishne",
+        "driver_name": "Artemka",
+        "id": "171",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vorzel",
+        "destination_place": "Vorzel",
+        "driver_name": "Artemka",
+        "id": "172",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shepetivka",
+        "destination_place": "Shepetivka",
+        "driver_name": "Artemka",
+        "id": "173",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Halych",
+        "destination_place": "Halych",
+        "driver_name": "Artemka",
+        "id": "174",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Petropavlivs’ka Borshchahivka",
+        "destination_place": "Petropavlivs’ka Borshchahivka",
+        "driver_name": "Artemka",
+        "id": "175",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Balabyne",
+        "destination_place": "Balabyne",
+        "driver_name": "Artemka",
+        "id": "176",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Staryi Krym",
+        "destination_place": "Staryi Krym",
+        "driver_name": "Artemka",
+        "id": "177",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zelenivka",
+        "destination_place": "Zelenivka",
+        "driver_name": "Artemka",
+        "id": "178",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chornukhyne",
+        "destination_place": "Chornukhyne",
+        "driver_name": "Artemka",
+        "id": "179",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kotsyubyns’ke",
+        "destination_place": "Kotsyubyns’ke",
+        "driver_name": "Artemka",
+        "id": "180",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Koreiz",
+        "destination_place": "Koreiz",
+        "driver_name": "Artemka",
+        "id": "181",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bryukhovychi",
+        "destination_place": "Bryukhovychi",
+        "driver_name": "Artemka",
+        "id": "182",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Horenka",
+        "destination_place": "Horenka",
+        "driver_name": "Artemka",
+        "id": "183",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Chabany",
+        "destination_place": "Chabany",
+        "driver_name": "Artemka",
+        "id": "184",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Teple",
+        "destination_place": "Teple",
+        "driver_name": "Artemka",
+        "id": "185",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zalizne",
+        "destination_place": "Zalizne",
+        "driver_name": "Artemka",
+        "id": "186",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Khotiv",
+        "destination_place": "Khotiv",
+        "driver_name": "Artemka",
+        "id": "187",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novooleksandrivka",
+        "destination_place": "Novooleksandrivka",
+        "driver_name": "Artemka",
+        "id": "188",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zaozerne",
+        "destination_place": "Zaozerne",
+        "driver_name": "Artemka",
+        "id": "189",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Almazna",
+        "destination_place": "Almazna",
+        "driver_name": "Artemka",
+        "id": "190",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shabelkivka",
+        "destination_place": "Shabelkivka",
+        "driver_name": "Artemka",
+        "id": "191",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Obroshino",
+        "destination_place": "Obroshino",
+        "driver_name": "Artemka",
+        "id": "192",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Krykhivtsi",
+        "destination_place": "Krykhivtsi",
+        "driver_name": "Artemka",
+        "id": "193",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novopillia",
+        "destination_place": "Novopillia",
+        "driver_name": "Artemka",
+        "id": "194",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Zaitseve",
+        "destination_place": "Zaitseve",
+        "driver_name": "Artemka",
+        "id": "195",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Simeiz",
+        "destination_place": "Simeiz",
+        "driver_name": "Artemka",
+        "id": "196",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Novosilky",
+        "destination_place": "Novosilky",
+        "driver_name": "Artemka",
+        "id": "197",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yasynivka",
+        "destination_place": "Yasynivka",
+        "driver_name": "Artemka",
+        "id": "198",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kryukivshchyna",
+        "destination_place": "Kryukivshchyna",
+        "driver_name": "Artemka",
+        "id": "199",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shakhtarske",
+        "destination_place": "Shakhtarske",
+        "driver_name": "Artemka",
+        "id": "200",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mykhaylivka-Rubezhivka",
+        "destination_place": "Mykhaylivka-Rubezhivka",
+        "driver_name": "Artemka",
+        "id": "201",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Valianivske",
+        "destination_place": "Valianivske",
+        "driver_name": "Artemka",
+        "id": "202",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Malokaterynivka",
+        "destination_place": "Malokaterynivka",
+        "driver_name": "Artemka",
+        "id": "203",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Yuzhna Lomuvatka",
+        "destination_place": "Yuzhna Lomuvatka",
+        "driver_name": "Artemka",
+        "id": "204",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Shcherbynivka",
+        "destination_place": "Shcherbynivka",
+        "driver_name": "Artemka",
+        "id": "205",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vylok",
+        "destination_place": "Vylok",
+        "driver_name": "Artemka",
+        "id": "206",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Tovste",
+        "destination_place": "Tovste",
+        "driver_name": "Artemka",
+        "id": "207",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Piatypillia",
+        "destination_place": "Piatypillia",
+        "driver_name": "Artemka",
+        "id": "208",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Hatne",
+        "destination_place": "Hatne",
+        "driver_name": "Artemka",
+        "id": "209",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Bulavynske",
+        "destination_place": "Bulavynske",
+        "driver_name": "Artemka",
+        "id": "210",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Dubove",
+        "destination_place": "Dubove",
+        "driver_name": "Artemka",
+        "id": "211",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Kulynychi",
+        "destination_place": "Kulynychi",
+        "driver_name": "Artemka",
+        "id": "212",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Sadky",
+        "destination_place": "Sadky",
+        "driver_name": "Artemka",
+        "id": "213",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Krasnotorka",
+        "destination_place": "Krasnotorka",
+        "driver_name": "Artemka",
+        "id": "214",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Pervomaiskyi",
+        "destination_place": "Pervomaiskyi",
+        "driver_name": "Artemka",
+        "id": "215",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Brytivka",
+        "destination_place": "Brytivka",
+        "driver_name": "Artemka",
+        "id": "216",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Blyzhnie",
+        "destination_place": "Blyzhnie",
+        "driver_name": "Artemka",
+        "id": "217",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Mykhailivka",
+        "destination_place": "Mykhailivka",
+        "driver_name": "Artemka",
+        "id": "218",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Laryne",
+        "destination_place": "Laryne",
+        "driver_name": "Artemka",
+        "id": "219",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Vedmezhe",
+        "destination_place": "Vedmezhe",
+        "driver_name": "Artemka",
+        "id": "220",
+        "time_range": "08:00-12:00"
+    },
+    {
+        "departure_place": "Volodymyr-Volynskyi",
+        "destination_place": "Volodymyr-Volynskyi",
+        "driver_name": "Artemka",
+        "id": "221",
+        "time_range": "08:00-12:00"
+    }
+]
