@@ -3,30 +3,50 @@
 #include "utilities/console.h"
 #include "utilities/json_handler.h"
 #include "utilities/city.h"
+#include "utilities/bus_repository.h"
 
 #include <iostream>
 
 void App::run()
 {
 	// Console::clear();
+	BusRepository repo("database/busInfo.json");
 
-	vector<GenerateBusJson::BusInfo> buses;
-	vector<City> cities = load_cities("database/ua.json");
+	std::vector<City> cities = load_cities("database/ua.json");
 
-	for (const auto &city : cities)
-		buses.push_back({GenerateBusJson::generate_id(), city.name, city.name, "08:00-12:00", "Artemka"});
+	// Генерація маршрутів
+	for (size_t i = 0; i < cities.size(); ++i)
+		for (size_t j = 0; j < cities.size(); ++j)
+		{
+			if (i == j)
+				continue; // Вилучаємо повтори
 
-	GenerateBusJson::save_to_file("database/busInfo.json", buses);
+			repo.addBus({GenerateBusJson::generate_id(),
+						 cities[i].name, // Звідки
+						 cities[j].name, // Куди
+						 "08:00-12:00",	 // Час
+						 "Artemka"});	 // Ім'я водія
+		}
 
-	vector<GenerateBusJson::BusInfo> buses_from_file = GenerateBusJson::load_from_file("database/busInfo.json");
+	repo.addBus({GenerateBusJson::generate_id(),
+				 "Kyiv",		// Звідки
+				 "Lviv",		// Куди
+				 "08:00-12:00", // Час
+				 "Stepan"});	// Ім'я водія
 
-	// for (const auto &bus : buses_from_file)
-	// {
-	// 	cout << "ID: " << bus.id << endl;
-	// 	cout << "Departure Place: " << bus.departure_place << endl;
-	// 	cout << "Destination Place: " << bus.destination_place << endl;
-	// 	cout << "Time Range: " << bus.time_range << endl;
-	// 	cout << "Driver Name: " << bus.driver_name << endl;
-	// 	cout << "------------------------\n";
-	// }
+	repo.addBus({GenerateBusJson::generate_id(),
+				 "Kyiv",		// Звідки
+				 "Lviv",		// Куди
+				 "08:00-12:00", // Час
+				 "Oleksandr"}); // Ім'я водія
+	//
+
+	repo.save();
+
+	// Приклад
+	auto filtered = repo.filterByRoute("Kyiv", "Lviv");
+	for (const auto &bus : filtered)
+	{
+		std::cout << bus.departure_place << " - " << bus.destination_place << " | " << bus.time_range << " | " << bus.driver_name << '\n';
+	}
 }

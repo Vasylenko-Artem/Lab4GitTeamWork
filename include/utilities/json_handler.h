@@ -7,6 +7,7 @@ using namespace std;
 
 class GenerateBusJson
 {
+
 public:
 	struct BusInfo
 	{
