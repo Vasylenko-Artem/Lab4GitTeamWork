@@ -4,7 +4,7 @@
 #include "utilities/json_handler.h"
 #include "utilities/city.h"
 #include "utilities/bus_repository.h"
-
+#include "utilities/tree_sort.h"
 #include <iostream>
 
 void App::run()
@@ -31,13 +31,13 @@ void App::run()
 	repo.addBus({GenerateBusJson::generate_id(),
 				 "Kyiv",		// Звідки
 				 "Lviv",		// Куди
-				 "08:00-12:00", // Час
+				 "08:00-14:00", // Час
 				 "Stepan"});	// Ім'я водія
 
 	repo.addBus({GenerateBusJson::generate_id(),
 				 "Kyiv",		// Звідки
 				 "Lviv",		// Куди
-				 "08:00-12:00", // Час
+				 "08:00-18:00", // Час
 				 "Oleksandr"}); // Ім'я водія
 	//
 
@@ -49,4 +49,10 @@ void App::run()
 	{
 		std::cout << bus.departure_place << " - " << bus.destination_place << " | " << bus.time_range << " | " << bus.driver_name << '\n';
 	}
+	filtered = tree_sort(filtered, "time", 1);
+	for (const auto &bus : filtered)
+	{
+		std::cout << bus.departure_place << " - " << bus.destination_place << " | " << bus.time_range << " | " << bus.driver_name << '\n';
+	}
+	//
 }

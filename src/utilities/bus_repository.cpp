@@ -7,8 +7,8 @@
 
 using namespace std;
 
-BusRepository::BusRepository(const string &filePath)
-	: filePath(filePath)
+BusRepository::BusRepository(const string &fP)
+	: filePath(fP)
 {
 	load();
 }
