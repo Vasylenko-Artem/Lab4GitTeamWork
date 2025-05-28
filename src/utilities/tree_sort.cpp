@@ -124,7 +124,7 @@ Nodesort<int> bytime(const GenerateBusJson::BusInfo &bus)
         else
             end = end * 10 + bus.time_range[i] - '0';
     }
-    cout << start << " " << end << endl;
+
     nodesort.tosort = end - start;
 
     return nodesort;
