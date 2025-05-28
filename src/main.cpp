@@ -1,8 +1,8 @@
 #include <iostream>
-#include "utils.h"
+#include "app/app.h"
 
 int main()
 {
-    hello();
+    App::run();
     return 0;
 }

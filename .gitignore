@@ -1,6 +1,11 @@
+.vscode
 .DS_Store
+.vs
 
 bin/
 build/
 dist/
 test/
+
+.vscode/
+# database/
