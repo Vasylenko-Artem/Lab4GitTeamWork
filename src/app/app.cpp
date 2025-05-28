@@ -49,7 +49,7 @@ void App::run()
     };
 
     while (true) {
-        int selected = Console1::printMenu();
+        int selected = Menu::printMenu();
 
         if (selected == 3) {
             // "Exit"
@@ -74,7 +74,7 @@ void App::run()
                     lines.push_back(bus.departure_place + " - " + bus.destination_place + " | " + bus.time_range + " | Driver: " + bus.driver_name);
                 }
             }
-            Console1::display(lines, -1);
+            Menu::display(lines, -1);
             mvprintw(LINES-2, 2, "Press any key to return to the menu...");
             getch();
             break;
@@ -92,7 +92,7 @@ void App::run()
                     lines.push_back(bus.departure_place + " - " + bus.destination_place + " | " + bus.time_range + " | " + bus.driver_name);
                 }
             }
-            Console1::display(lines, -1);
+            Menu::display(lines, -1);
             mvprintw(LINES-2, 2, "Press any key to return to the menu...");
             getch();
             break;
@@ -109,7 +109,7 @@ void App::run()
                     lines.push_back(bus.departure_place + " - " + bus.destination_place + " | " + bus.time_range + " | " + bus.driver_name);
                 }
             }
-            Console1::display(lines, -1);
+            Menu::display(lines, -1);
             mvprintw(LINES-2, 2, "Press any key to return to the menu...");
             getch();
             break;

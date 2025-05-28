@@ -3,24 +3,24 @@
 #include <vector>
 #include <string>
 
-void Console1::clear() {
+void Menu::clear() {
     ::clear();
 }
 
-void Console1::consoleHandle() {
+void Menu::consoleHandle() {
     // Optional: move cursor to (0,0), or do nothing (ncurses handles this)
     move(0, 0);
 }
 
-void Console1::setCursorVisible(bool visible) {
+void Menu::setCursorVisible(bool visible) {
     curs_set(visible ? 1 : 0);
 }
 
-void Console1::DisableScrollBars() {
+void Menu::DisableScrollBars() {
     // Not needed in ncurses; left empty for compatibility
 }
 
-void Console1::display(const std::vector<std::string>& lines, int highlight) {
+void Menu::display(const std::vector<std::string>& lines, int highlight) {
     clear();
     for (size_t i = 0; i < lines.size(); ++i) {
         if ((int)i == highlight) {
@@ -34,14 +34,14 @@ void Console1::display(const std::vector<std::string>& lines, int highlight) {
     refresh();
 }
 
-int Console1::printMenu() {
+int Menu::printMenu() {
     initscr();
     noecho();
     cbreak();
     setCursorVisible(false);
     keypad(stdscr, TRUE);
     start_color();
-    init_pair(1, COLOR_BLACK, COLOR_YELLOW);
+    init_pair(1, COLOR_BLACK, COLOR_WHITE);
 
     std::vector<std::string> header = {
         "  _________________",

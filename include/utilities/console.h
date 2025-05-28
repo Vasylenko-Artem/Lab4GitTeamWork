@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-class Console1
+class Menu
 {
 public:
     static void clear();
